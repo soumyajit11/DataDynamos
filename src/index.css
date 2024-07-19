@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/08/47/52/87/1000_F_847528704_Pnh1q2WWz4JCPU3RMQzPdKERVsUoczwQ.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.3;  */
+  }
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
